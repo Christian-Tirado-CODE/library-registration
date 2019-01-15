@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Library Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!--
+          THINGS LEFT TO DO: MAKE UI LOOK BETTER AND PERSIST TO LOCAL STORAGE
+      -->
+      <div class="container">
+        <header><h1>Library Registragion:</h1></header>
+        <form id="registration">
+          <label>First Name:</label>
+          <div class="input-group"><input type="text" id="name" /></div>
+          <label>State:</label>
+          <div class="input-group"><input type="text" id="state" /></div>
+          <label>Phone Number:</label>
+          <div class="input-group"><input type="text" id="phoneNumber" /></div>
+
+          <input type="submit" value="SUBMIT" />
+        </form>
+        <table id="registration-list">
+          <tr>
+            <th>Name</th>
+            <th>State</th>
+            <th>Phone number</th>
+          </tr>
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="js/oop-es6.js"></script>
+    <!-- <script src="js/oop-es5.js"></script> -->
+  </body>
+</html>
